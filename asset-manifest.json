@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/kasa/static/css/main.c1ac19f9.css",
-    "main.js": "/kasa/static/js/main.1280088c.js",
-    "static/js/787.0ce615c0.chunk.js": "/kasa/static/js/787.0ce615c0.chunk.js",
-    "static/media/banner.jpg": "/kasa/static/media/banner.0f820b85d9a6a7e177b3.jpg",
-    "static/media/aboutBanner.jpg": "/kasa/static/media/aboutBanner.2dec4393a036d3e19adc.jpg",
-    "static/media/kasa.svg": "/kasa/static/media/kasa.759702e80d2cca5e6d54b41ca6682c02.svg",
-    "static/media/stars.svg": "/kasa/static/media/stars.30b8963e66a47777ef47296f505567be.svg",
-    "index.html": "/kasa/index.html",
-    "static/media/next.svg": "/kasa/static/media/next.88153a5d119c2744ffe34dca1ef843df.svg",
-    "static/media/prev.svg": "/kasa/static/media/prev.19918a1634b1441a25ae0b50e6b1f85b.svg",
-    "main.c1ac19f9.css.map": "/kasa/static/css/main.c1ac19f9.css.map",
-    "main.1280088c.js.map": "/kasa/static/js/main.1280088c.js.map",
-    "787.0ce615c0.chunk.js.map": "/kasa/static/js/787.0ce615c0.chunk.js.map"
+    "main.css": "/kasa/kasa/static/css/main.c1ac19f9.css",
+    "main.js": "/kasa/kasa/static/js/main.142fa1e4.js",
+    "static/js/787.0ce615c0.chunk.js": "/kasa/kasa/static/js/787.0ce615c0.chunk.js",
+    "static/media/banner.jpg": "/kasa/kasa/static/media/banner.0f820b85d9a6a7e177b3.jpg",
+    "static/media/aboutBanner.jpg": "/kasa/kasa/static/media/aboutBanner.2dec4393a036d3e19adc.jpg",
+    "static/media/kasa.svg": "/kasa/kasa/static/media/kasa.759702e80d2cca5e6d54b41ca6682c02.svg",
+    "index.html": "/kasa/kasa/index.html",
+    "static/media/stars.svg": "/kasa/kasa/static/media/stars.30b8963e66a47777ef47296f505567be.svg",
+    "static/media/next.svg": "/kasa/kasa/static/media/next.88153a5d119c2744ffe34dca1ef843df.svg",
+    "static/media/prev.svg": "/kasa/kasa/static/media/prev.19918a1634b1441a25ae0b50e6b1f85b.svg",
+    "main.c1ac19f9.css.map": "/kasa/kasa/static/css/main.c1ac19f9.css.map",
+    "main.142fa1e4.js.map": "/kasa/kasa/static/js/main.142fa1e4.js.map",
+    "787.0ce615c0.chunk.js.map": "/kasa/kasa/static/js/787.0ce615c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1ac19f9.css",
-    "static/js/main.1280088c.js"
+    "static/js/main.142fa1e4.js"
   ]
 }
