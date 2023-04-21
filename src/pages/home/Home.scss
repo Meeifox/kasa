@@ -17,7 +17,6 @@
         filter: brightness(70%);
     }
 }
-
 .BannerOverlay {
     position: absolute;
     bottom: 50px;
@@ -38,4 +37,38 @@
 .cardContainer {
     margin-top: 0;
     background-color: #F6F6F6;
+}
+
+@media screen and (max-width: 768px) {
+    .Home{
+        .Banner {          
+            height : 111px;
+        }
+        .BannerOverlay {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            z-index: 1;
+        }
+        
+        .BannerQuote {
+            margin: 0;
+            color: #fff;
+            font-size: 1.5em;
+            font-style: normal;
+            font-weight: 500;
+            text-align: left;
+            max-width: 215px;
+            word-wrap: break-word; 
+            white-space: pre-line;
+        }
+    }
+    
+    .Banner {
+        height: 223px;
+    }
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+    }
 }

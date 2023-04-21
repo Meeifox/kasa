@@ -3,71 +3,79 @@
     flex-direction: column;
     gap: 25px;
     
-    .display-row {
+    .title-location-host-rating {
         display: flex;
-        flex-direction: row;
+        gap: 10px;
         justify-content: space-between;
-        width: 100%;
-        
-        
-        .lots-host {
+        .title-location {
             display: flex;
-            gap: 10px;
-            .host-picture{
-                width: 64px;
-                height: 64px;
-                border-radius: 50%;
-                overflow: hidden;
-                img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
+            flex-direction: column;
+            
+        }
+        .host-rating {
+            .lots-host {
+                display: flex;
+                justify-content: flex-end;
+                gap: 10px;
+                width: 100%;                
+                .host-picture{
+                    width: 64px;
+                    height: 64px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .host-name {
+                    text-align: right;
+                    max-width: 80px;
+                    font-weight: 500;
+                    font-size: 18px;
+                    word-wrap: break-word; 
+                    white-space: pre-line; 
+                    max-height: 2.6em; 
+                    overflow: hidden; 
+                    word-break: keep-all;
                 }
             }
-            .host-name {
-                text-align: right;
-                max-width: 80px;
-                font-weight: 500;
-                font-size: 18px;
-                word-wrap: break-word; 
-                white-space: pre-line; 
-                max-height: 2.6em; 
-                overflow: hidden; 
-                word-break: keep-all;
-            }
-        }
-        
-        .lots-tags {
-            display: flex;
-            gap: 5px;
-            button{
-                background: #FF6060;
-                border : none;
-                border-radius: 10px;
-                color: #fff;
-                width: 120px;
-                height: 30px;
-                text-size-adjust: initial;
-                font-size: auto;
-            }
-        }
-        .lots-tags{
-            button:hover {
-            cursor: pointer;}
         }
     }
     
+    .lots-tags {
+        display: flex;
+        gap: 5px;
+        
+        button {
+            background: #FF6060;
+            border : none;
+            border-radius: 10px;
+            color: #fff;
+            width: 120px;
+            height: 30px;
+            text-size-adjust: initial;
+            font-size: auto;
+        }
+    }
+    .lots-tags{
+        button:hover {
+            cursor: pointer;}
+        } 
+    }
+
     .homeCollapse {
         display: flex;
         flex-direction: row;
         width: 100%;
-        
+        gap: 10px;
+ 
         .collapse {
             width: 100%;
             border-radius: 10px;
             border-color: none;
-        }
-        
+        }        
         
         .lots-description{
             display: flex;
@@ -87,6 +95,46 @@
             .collapse {
                 padding: 0;
             }
+            .li {
+                padding: 1%;
+            }
         }    
     }
-}
+    
+    
+    
+    
+    @media screen and (max-width: 768px) {
+        .title-location-host-rating {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: space-between;
+        }
+        .host-rating {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+        .homeCollapse {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            .lots-equipements {
+                padding-left: 0;
+                width: 100%;
+                .collapse {
+                    padding: 0;
+                }
+                .li {
+                    padding: 1%;
+                }
+            }
+            .lots-description{
+                width: 100%;
+                padding-right: 0;
+            }    
+        }
+    }

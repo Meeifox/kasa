@@ -10,16 +10,16 @@ function About(){
         </section>
         <section className='collapsModule'>
                     <Collapse title="Fiabilité">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu luctus quam. Nullam mattis egestas justo viverra ultrices. Nam vel mauris at neque euismod volutpat quis blandit enim. Etiam quis massa diam. In ornare neque enim, nec porta lorem pellentesque a. Donec malesuada faucibus cursus. Curabitur iaculis eu mauris nec fermentum.</p>
+                        <p>Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes.</p>
                     </Collapse>
                     <Collapse title="Respect">
                         <p>La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.</p>
                     </Collapse>
                     <Collapse title="Service">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu luctus quam. Nullam mattis egestas justo viverra ultrices. Nam vel mauris at neque euismod volutpat quis blandit enim. Etiam quis massa diam. In ornare neque enim, nec porta lorem pellentesque a. Donec malesuada faucibus cursus. Curabitur iaculis eu mauris nec fermentum.</p>
+                        <p>Nos équipes se tiennent à votre disposition pour vous fournir une expérience parfaite. N'hésitez pas à nous contacter si vous avez la moindre question.</p>
                     </Collapse>
                     <Collapse title="Sécurité">
-                        <p>Nunc vitae eros mattis, dignissim nunc ut, congue est. Nunc in nisi massa. Donec at erat vehicula, eleifend velit rhoncus, sagittis nunc. Mauris volutpat id neque in malesuada. Nulla congue metus ac ex facilisis, id suscipit velit iaculis. Vestibulum dolor tellus, facilisis at sem id, ullamcorper gravida mauris. Donec ac condimentum lectus. Proin enim turpis, consectetur eget scelerisque ac, ultricies at sem. Donec pulvinar et metus non porta. Aenean tortor erat, imperdiet nec luctus in, congue mollis nisi. Nulla est eros, dapibus ut posuere ut, convallis at quam.</p>
+                        <p>La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes.</p>
                     </Collapse>
             </section>
             </main>

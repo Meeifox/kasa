@@ -38,13 +38,21 @@
       font-family: 'Montserrat';
       font-style: normal;
       font-weight: 400;
-      font-size: 1em;
+      font-size: 0.8em;
       border-radius: 5px;
-  
+      padding-block: 2%;
       &.box-open {
         background-color: #f6f6f6;
         max-height: 400px;
-        transition: max-height 2.5s ease-in-out;
+        animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      }
+      li {
+        padding-left: 3%;
+      }
+
+      p{
+        padding-left: 3%;
+        padding-right: 3%;
       }
     }
   }
@@ -77,7 +85,7 @@
     display: none;
     height: 0;
     overflow: hidden;
-    transition: height 0.3s ease-in-out;
+    transition: height 5.5s ease-in-out;
   }
   
   .box-open {
@@ -85,9 +93,9 @@
     border-radius: 10px;
     overflow: hidden;
     height: auto;
-    transition: height 0.3s ease-in-out;
     transform: translateY(-10px);
     width: 100%;
+    animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
   
   .arrow-closed {
@@ -101,4 +109,9 @@
       transform: rotate(180deg);
     }
   }
-  
+
+  @media screen and (max-width: 768px) {
+    .collapse {
+      width: 100%;
+    }
+  }  
