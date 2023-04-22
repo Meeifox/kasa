@@ -13,7 +13,7 @@ function Cards({data}) {
     <>    
     {data.map((lot)=>
       <div className="cardPreview" key={lot.id}>
-        <Link to = {`/lots/${lot.id}`} className="cardLink">
+        <Link to = {`/kasa/lots/${lot.id}`} className="cardLink">
           <img src={lot.cover} alt={lot.title} className="cardCover"/>
           <h2 className="cardTitle">{lot.title}</h2>
         </Link>

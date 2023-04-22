@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     color: #FF6060;
+    flex: 1;
     
     .error404 {
         
@@ -16,14 +17,19 @@
     }
     
     .errorText {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: space-between;
         h2 {        
             font-size: 1.5em;
             font-style: normal;
             font-weight: 500;
+            flex: 1;
         }
         h3 {
             display: flex;
-            justify-content: center;
+            justify-content: center;           
             font-style: normal;
             font-weight: 500;
             font-size: 1em;

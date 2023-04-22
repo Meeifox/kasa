@@ -6,12 +6,12 @@ import renderStars from "../renderStars/renderStars";
 import { useParams } from "react-router-dom";
 import Carousel from "../carousel/Carousel";
 import Collapse from "../collapse/Collapse";
-
+import NotFound from "../../../pages/error/NotFound";
 
 function CardsDetails() {
   const { id } = useParams();
   const lot = lotsData.find(lot => lot.id === id);
-  
+  if (lot) {
   return (
       <article className="card-details">
           <Carousel images={lot.pictures} />    
@@ -48,6 +48,12 @@ function CardsDetails() {
       </article>
     );
   }
-      
+
+else {
+    return (
+        <NotFound/>
+    )
+}
+}      
       export default CardsDetails;
       

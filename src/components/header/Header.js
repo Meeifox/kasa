@@ -9,10 +9,10 @@ function Header() {
             <nav className='navigationLink'>
               <ul>
                 <li>
-                  <Link to="/">Accueil</Link>
+                  <Link to="/kasa/">Accueil</Link>
                 </li>
                 <li>
-                  <Link to="/about">A propos</Link>
+                  <Link to="/kasa/about">A propos</Link>
                 </li>
               </ul>
             </nav>

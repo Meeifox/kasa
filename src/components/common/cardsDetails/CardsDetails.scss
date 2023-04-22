@@ -59,18 +59,13 @@
             font-size: auto;
         }
     }
-    .lots-tags{
-        button:hover {
-            cursor: pointer;}
-        } 
-    }
-
+}    
     .homeCollapse {
         display: flex;
         flex-direction: row;
         width: 100%;
         gap: 10px;
- 
+        
         .collapse {
             width: 100%;
             border-radius: 10px;

@@ -38,7 +38,7 @@
       font-family: 'Montserrat';
       font-style: normal;
       font-weight: 400;
-      font-size: 0.8em;
+      font-size: 1em;
       border-radius: 5px;
       padding-block: 2%;
       &.box-open {
@@ -109,6 +109,9 @@
       transform: rotate(180deg);
     }
   }
+  .box-open:hover{
+    cursor: pointer;
+}
 
   @media screen and (max-width: 768px) {
     .collapse {

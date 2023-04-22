@@ -11,9 +11,9 @@ function App() {
     <BrowserRouter>
       <Header></Header>
       <Routes>
-        <Route path="/"element={<Home />}></Route>
-        <Route path="/about"element={<About />}></Route>
-        <Route path="/lots/:id"element={<CardsDetails/>} />
+        <Route path="/kasa/"element={<Home />}></Route>
+        <Route path="/kasa/about"element={<About />}></Route>
+        <Route path="/kasa/lots/:id"element={<CardsDetails/>} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer></Footer>
