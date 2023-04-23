@@ -8,6 +8,15 @@ import Carousel from "../carousel/Carousel";
 import Collapse from "../collapse/Collapse";
 import NotFound from "../../../pages/error/NotFound";
 
+
+/**
+ * Cette fonction affiche les détails d'une carte de location de manière détaillée.
+ * Elle récupère l'identifiant du lot à afficher à partir de l'URL grâce à `useParams()`.
+ * Elle recherche ensuite les informations du lot correspondant dans `lotsData`.
+ * Si le lot est trouvé, elle affiche toutes les informations du lot : une galerie d'images, le titre et l'emplacement du lot, le nom et la photo de l'hôte, la note du lot, une liste de tags associés, une section avec une description détaillée et une liste d'équipements.
+ * Sinon, elle redirige vers la page NotFound.
+ * @returns  Le contenu de la page détaillée d'un lot en fonction de son id.
+ */
 function CardsDetails() {
   const { id } = useParams();
   const lot = lotsData.find(lot => lot.id === id);

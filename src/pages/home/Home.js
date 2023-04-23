@@ -4,7 +4,11 @@ import bannerImage from '../../assets/images/banner.jpg';
 import Cards from "../../components/common/cards/Cards";
 import lotsData from "../../data/lotsData.json";
 
-
+/**
+La fonction Home est un composant qui représente la page d'accueil de l'application.
+Elle affiche une bannière avec une citation et une image, ainsi qu'une liste de biens immobiliers disponibles.
+@returns le contenu du composant Home
+*/
 function Home() {
     return(
         <main className="Home">
